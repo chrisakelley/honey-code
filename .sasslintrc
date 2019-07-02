@@ -1,0 +1,11 @@
+{
+	"rules": {
+		"indentation": [
+               1,
+               {
+				"size": "tab"
+			}
+		],
+		"force-element-nesting": 0,
+	}
+}

@@ -1,0 +1,29 @@
+$theme-slug: 'honey-purple' !default;
+
+$background: #2d2d2d !default;
+$foreground: #ccc !default;
+$italic-family: 'Fira Code iScript';
+$italic-style:  italic;
+$selection:  #515151 !default;
+$comment:       rgb(150, 150, 150) !default;
+$red:           rgb(250, 96, 96) !default;
+$yellow:        rgb(255, 210, 40) !default;
+$purple:        rgb(211, 182, 255) !default;
+$aqua:          rgb(55, 175, 183) !default;
+$green:         rgb(93, 251, 171) !default;
+$blue:          rgb(100, 180, 253) !default;
+$orange:        rgb(255, 156, 62) !default;
+
+
+//Config
+$italic-family: 'Fira Code iScript' !default;
+$italic-style:  italic !default;
+
+$font-size:   16px !default;
+$font-weight: 700 !default;
+
+$use-radius:    true !default;
+$border-radius: 6px !default;
+$padding: 30px;
+
+@import './utils/base';

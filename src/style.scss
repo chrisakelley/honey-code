@@ -1,0 +1,24 @@
+.honey-code-block {
+	padding: 5px;
+
+	textarea {
+
+		&.block-editor-plain-text {
+			border: 1px solid rgb(200, 200, 200);
+			border-radius: 0;
+			box-shadow: none;
+			font-family: Menlo, Consolas, monaco, monospace;
+			font-size: 14px;
+			padding: 5px;
+			resize: none;
+			width: 100%;
+			word-wrap: break-word;
+
+		}
+	}
+
+}
+
+.honey-code-inspector-panelbody {
+	overflow: visible;
+}

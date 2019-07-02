@@ -1,0 +1,29 @@
+$theme-slug: 'honey-leather' !default;
+
+$background: rgb(10, 44, 86) !default;
+$foreground: #ccc !default;
+$italic-family: 'Fira Code iScript';
+$italic-style:  italic;
+$selection:  #515151 !default;
+$comment:    #999999 !default;
+$red:        #f2777a !default;
+$yellow:     #ffcc66 !default;
+$purple:     #cc99cc !default;
+$aqua:       #66cccc !default;
+$green:      #99cc99 !default;
+$blue:       #6699cc !default;
+$orange:     #f99157 !default;
+
+//Config
+$italic-family: 'Fira Code iScript' !default;
+$italic-style:  italic !default;
+
+$font-size:   16px !default;
+$font-weight: 700 !default;
+
+$use-radius:    true !default;
+$border-radius: 6px !default;
+
+$padding: 30px;
+
+@import './utils/base';
