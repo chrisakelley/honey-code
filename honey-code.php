@@ -331,15 +331,9 @@ final class HoneyCode {
 
 }
 
-add_action( 'plugins_loaded', 'honey_code_init' );
-
-/**
- * Helper Method to init Plugin Instance.
- *
- * @since 1.0.0
- *
- * @return object|HoneyCode
- */
-function honey_code_init() {
-	return HoneyCode::get_instance();
-}
+add_action(
+	'plugins_loaded',
+	function() {
+		return HoneyCode::get_instance();
+	}
+);
