@@ -1,10 +1,8 @@
 $theme-slug: 'honey-purple' !default;
 
-$background: #2d2d2d !default;
-$foreground: #ccc !default;
-$italic-family: 'Fira Code iScript';
-$italic-style:  italic;
-$selection:  #515151 !default;
+$background:    #2d2d2d !default;
+$foreground:    #ccc !default;
+$selection:     #515151 !default;
 $comment:       rgb(150, 150, 150) !default;
 $red:           rgb(250, 96, 96) !default;
 $yellow:        rgb(255, 210, 40) !default;
@@ -26,4 +24,4 @@ $use-radius:    true !default;
 $border-radius: 6px !default;
 $padding: 30px;
 
-@import './utils/base';
+@import './utils/honey-base';
