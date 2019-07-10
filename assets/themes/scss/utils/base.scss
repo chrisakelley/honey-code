@@ -3,12 +3,13 @@ pre {
 		background-color: $background;
 		border-radius: $border-radius;
 		color: $foreground;
-		font-family: 'Fira Code iScript';
+		font-family: Menlo, Consolas, monaco, monospace;
 		font-size: $font-size;
 		font-weight: $font-weight;
 		padding: $padding;
 		user-select: text;
 		white-space: pre;
+
 		code {
 			background: none; // Fix for Core Wordpress.
 			font-size: 16px;
@@ -27,8 +28,6 @@ pre {
 
 		.comment {
 			color: $comment;
-			font-family: $italic-family;
-			font-style: $italic-style;
 			padding-left: 0;
 		}
 
@@ -37,13 +36,6 @@ pre {
 
 			&.language {
 				color: $orange;
-			}
-
-			&.global,
-			&.class,
-			&.instance {
-				font-family: $italic-family;
-				font-style: $italic-style;
 			}
 
 		}
@@ -75,8 +67,6 @@ pre {
 
 			&.attribute {
 				color: $purple;
-				font-family: $italic-family;
-				font-style: $italic-style;
 			}
 
 			&.operator {
@@ -101,9 +91,8 @@ pre {
 		.keyword,
 		.storage {
 			color: $purple;
-			font-family: $italic-family;
-			font-style: $italic-style;
 		}
 
 	}
 }
+

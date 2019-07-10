@@ -5,6 +5,9 @@ import { registerBlockType } from '@wordpress/blocks';
 import { __ } from '@wordpress/i18n';
 import { createBlock } from '@wordpress/blocks';
 import { unescape } from './Components/utils';
+
+import './style.scss';
+
 /**
  * Internal dependencies
  */

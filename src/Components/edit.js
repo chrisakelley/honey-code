@@ -6,7 +6,6 @@ import Toolbar from './toolbar';
 import { PlainText } from '@wordpress/block-editor';
 import { escape, unescape } from './utils';
 
-import '../style.scss';
 
 class CodeEdit extends Component {
 

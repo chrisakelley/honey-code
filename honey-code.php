@@ -5,7 +5,7 @@
  * Description: A gutenberg block for syntax highlighting
  * Author:      Chris Kelley
  * Author URI:  https://iwritecode.blog
- * Version:     0.0.2-beta
+ * Version:     1.1.0
  * Text Domain: honey-code
  * Domain Path: languages
  *
@@ -42,7 +42,7 @@ final class HoneyCode {
 	 *
 	 * @var string
 	 */
-	public $version = '0.0.2-beta';
+	public $version = '1.1.0';
 
 	/**
 	 * Undocumented variable
@@ -310,7 +310,18 @@ final class HoneyCode {
 			'version' => '1.0.0',
 			'file'    => $this->file,
 		];
-
+		$themes['tomorrow'] = [
+			'label'   => esc_attr__( 'Tomorrow', 'honey-code' ),
+			'value'   => 'tomorrow',
+			'version' => '1.0.0',
+			'file'    => $this->file,
+		];
+		$themes['tomorrow-night'] = [
+			'label'   => esc_attr__( 'Tomorrow Night', 'honey-code' ),
+			'value'   => 'tomorrow-night',
+			'version' => '1.0.0',
+			'file'    => $this->file,
+		];
 		return apply_filters( 'honey_code_register_themes', $themes );
 
 	}
